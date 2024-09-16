@@ -31,6 +31,6 @@ PROVIDE(RIT = DefaultHandler);
 PROVIDE(MCPWM = DefaultHandler);
 PROVIDE(QEI = DefaultHandler);
 PROVIDE(PLL1 = DefaultHandler);
-PROVIDE(USBACTIVITY = DefaultHandler);
-PROVIDE(CANACTIVITY = DefaultHandler);
+PROVIDE(USBActivity = DefaultHandler);
+PROVIDE(CANActivity = DefaultHandler);
 

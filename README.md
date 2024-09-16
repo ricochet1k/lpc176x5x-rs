@@ -10,8 +10,10 @@ using [svd2rust](https://crates.io/crates/svd2rust).
 The SVD file contained some duplicate definitions and some other errors which
 needed to be fixed.
 
-```Bash
+```bash
+cargo install svd2rust form
 svd2rust -i LPC176x5x.svd
-mv lib.rs src/lib.rs
+rm -rf src
+form -i lib.rs -o src/ && rm lib.rs
 cargo fmt
 ```
